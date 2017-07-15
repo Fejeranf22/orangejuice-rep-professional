@@ -1,0 +1,32 @@
+body{
+  margin :50px;
+
+}
+
+ul {
+  display: inline;
+  list-style-type: none;
+}
+footer{
+  color: blue;
+}
+#navbar {
+  background-color: orange;
+}
+nav {
+  background-color: orange;
+}
+
+#foot{
+  margin: 15px;
+  position: fixed;
+  background-color: green;
+}
+
+.colsTest {
+ background-color: yellow;
+
+}
+.orangeLogo {
+  color:blue;
+}
