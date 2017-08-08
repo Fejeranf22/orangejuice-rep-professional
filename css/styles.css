@@ -2,30 +2,23 @@ body{
   margin :50px;
 
 }
-.search {
-float: right;
-
-
-}
-
-ul {
-  display: inline;
-  list-style-type: none;
-}
-footer{
-  color: blue;
-}
+/*------------------the nav bar styles*/
 #navbar {
   background-color: orange;
-}
-nav {
-  background-color: orange;
+
 }
 
-#foot{
-  margin: 15px;
-  position: fixed;
-  background-color: green;
+
+
+
+/*================== the search bar styles*/
+.search {
+float: right;
+}
+
+
+a:link {
+  color:white;
 }
 
 .colsTest {
@@ -33,5 +26,42 @@ nav {
 
 }
 .orangeLogo {
-  color:blue;
+  color:white;
+}
+#paragraph{
+  font-family: fantasy;
+  color: orange;
+  font-size:45px;
+}
+
+.boldBlue{
+color:#7accc8;
+}
+/*-----------------button styles*/
+
+#buttonOrange{
+  margin: 3px;
+border-radius: rounded;
+background: orange;
+}
+
+#buttonBlue{
+  margin: 3px;
+border-radius: rounded;
+background: #7accc8;
+}
+
+.button{
+  color: white;
+}
+#last{
+  border: solid;
+  margin :25px;
+  padding-top: 15px;
+  position: fixed;
+  bottom:0;
+  right:0;
+  left:0;
+  background: #7accc8;
+  color: #7accc8;
 }
